@@ -1,0 +1,35 @@
+langchain
+ipykernel
+python-dotenv # these will help to store apis
+langchain_community # helps to import any loader
+pypdf # loads pdf
+bs4  # beautifulsoup4 to parse HTML.
+arxiv # it contens 2 million articles of reseach which we can downstream as document
+pymupdf # requires for arxiv
+wikipedia # from wikipedia we can get any info
+## for data transformation (document to small chunks)
+langchain-text-splitters # requires for all type of split
+## for embeddings
+langchain-openai # it will help to integrate between openai and langchain
+langchain-google-genai # it will help to integrate langchain with gemini
+# for ollama
+langchain-community
+# for Huggingface embedings 
+sentence_transformers
+# to integrate huggingface and langchain 
+langchain_huggingface
+# for FAISS vectordb using on cpu
+faiss-cpu
+## to integrate langchain with chroma db
+langchain_chroma
+chromadb # for chromadb vectordb
+## to integrate langchain and groq
+langchain_groq
+# sometime we need to define the behavour of the llm model ex: behave like assistant etc 
+langchain_core
+## to get the order(querry) from the cliet 
+fastapi
+uvicorn
+## to connect with langserver
+langserve
+sse_starlette
